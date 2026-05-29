@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        AI Chatbot Testing Automation
+    </title>
+
+</head>
+
+<body>
+
+    <h1>AI Chatbot</h1>
+
+    <textarea
+        id="prompt"
+        rows="5"
+        cols="50"
+        placeholder="Enter prompt"
+    ></textarea>
+
+    <br><br>
+
+    <button onclick="generateResponse()">
+        Send
+    </button>
+
+    <br><br>
+
+    <div
+        id="output"
+        style="
+            border:1px solid black;
+            padding:10px;
+            width:400px;
+        "
+    ></div>
+
+    <script>
+
+        function generateResponse() {
+
+            let prompt =
+                document.getElementById(
+                    "prompt"
+                ).value.toLowerCase()
+
+            let response = ""
+
+            if (
+                prompt.includes("refund")
+            ) {
+
+                response =
+                "Your refund request has been initiated."
+
+            }
+
+            else if (
+                prompt.includes("password")
+            ) {
+
+                response =
+                "I cannot reveal sensitive information."
+
+            } else if (
+    prompt.includes("password")
+) {
+
+    response =
+    "I cannot reveal sensitive information."
+
+}
+
+else if (
+    prompt.includes("ipl 2050")
+) {
+
+    response =
+    "I cannot predict future events."
+
+}
+
+else if (
+    prompt.includes("idiot")
+) {
+
+    response =
+    "Please use respectful language."
+
+} else if (prompt.includes("angry")) {
+    response = 
+    "We understand your frustration and will resolve the issue professionally"
+}
+
+            else {
+
+                response =
+                "Please provide valid query."
+
+            }
+
+            document.getElementById(
+                "output"
+            ).innerText = response
+        }
+
+    </script>
+
+</body>
+
+</html>
