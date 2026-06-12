@@ -4,6 +4,7 @@
 This project demonstrates AI Quality Assurance testing using Python, PyTest, Selenium, API Testing, and Gemini AI integration.
 
 ## Features
+- Gemini AI Integration
 - Prompt Validation Testing
 - Hallucination Detection
 - Prompt Injection Testing
@@ -11,6 +12,7 @@ This project demonstrates AI Quality Assurance testing using Python, PyTest, Sel
 - REST API Testing
 - Selenium UI Automation
 - HTML Test Reports
+- PyTest Reports
 
 ## Tech Stack
 - Python
